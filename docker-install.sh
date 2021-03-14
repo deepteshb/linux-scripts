@@ -2,7 +2,7 @@
 sudo mkdir -p $HOME/installationlogs
 sudo echo "Hello $LOGNAME"
 sudo echo "you current working directory is " pwd
-sudo echo "=================STEP1 - CHECKING EXISTING DOCKER INSTALLATIONS IF ANY AND REMOVING THEM. ======================" >
+sudo echo "=================STEP1 - CHECKING EXISTING DOCKER INSTALLATIONS IF ANY AND REMOVING THEM. ======================"
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo echo "=================STEP2 - UPDATING PACKAGES ======================" 
 sudo apt-get update -y | sudo echo $? >> $HOME/installationlogs/dockerinstalllogs.txt

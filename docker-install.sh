@@ -1,6 +1,4 @@
 #!/bin/bash
-
-sudo -i
 sudo mkdir -p $HOME/installationlogs
 sudo echo "Hello $LOGNAME" >> $HOME/installationlogs/dockerinstalllogs.txt
 

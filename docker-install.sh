@@ -31,7 +31,8 @@ sudo echo $? >> $HOME/installationlogs/dockerinstalllogs.txt
 
 sudo echo "============================STEP5 - INSTALL DOCKER ENGINE========================">> $HOME/installationlogs/dockerinstalllogs.txt
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+sudo apt-get install docker.io 
 sudo echo $? >> $HOME/installationlogs/dockerinstalllogs.txt
 
 sudo echo "============================STEP5 - TEST IF SUCCESFULLY INSTALLED========================">> $HOME/installationlogs/dockerinstalllogs.txt

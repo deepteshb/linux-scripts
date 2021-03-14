@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo -i
 sudo mkdir -p $HOME/installationlogs
 sudo echo "Hello $LOGNAME" >> $HOME/installationlogs/dockerinstalllogs.txt
 
@@ -8,7 +9,6 @@ sudo echo "Hello $LOGNAME" >> $HOME/installationlogs/dockerinstalllogs.txt
 sudo echo $? >> $HOME/installationlogs/dockerinstalllogs.txt
 sudo echo "you current working directory is " pwd
 sudo echo $? >> $HOME/installationlogs/dockerinstalllogs.txt
-$env_base = uname -a
 
 sudo echo "=================STEP1 - CHECKING EXISTING DOCKER INSTALLATIONS IF ANY AND REMOVING THEM. ======================" >> $HOME/installationlogs/dockerinstalllogs.txt
 sudo apt-get remove docker docker-engine docker.io containerd runc

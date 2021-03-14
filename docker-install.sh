@@ -1,7 +1,8 @@
 #!/bin/bash
+sudo mkdir $HOME/installationlogs
 echo "Hello $LOGNAME" >> $HOME/installationlogs/dockerinstalllogs.txt
 
-sudo mkdir $HOME/installationlogs
+
 
 echo $? >> $HOME/installationlogs/dockerinstalllogs.txt
 echo "you current working directory is " pwd

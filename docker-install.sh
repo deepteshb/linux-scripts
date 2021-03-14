@@ -1,4 +1,4 @@
 #!/bin/bash
 
-$base_env = 'uname -a'
+$base_env = 'Hello'
 echo $base_env

@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo mkdir -p $HOME/installationlogs
 sudo echo -e "\e[38;5;82m Hello $LOGNAME \e[0m"
 sudo echo -e "\e[38;5;82m you current working directory is " pwd
 sudo echo -e "\e[38;5;82m =================STEP1 - CHECKING EXISTING DOCKER INSTALLATIONS IF ANY AND REMOVING THEM. ====================== \e[0m"
